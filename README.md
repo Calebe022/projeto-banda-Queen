@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">O site começa com uma tela de login estilizada, destacando o logotipo do Queen e uma mensagem que afirma: "A maior banda de rock de todos os tempos". A tela de login é simples, com um formulário para e-mail e senha, e inclui um link para cadastro de novos usuários. A estética é marcada por cores vibrantes como roxo e laranja, que são visualmente atraentes e combinam bem com a temática do Queen.</p>
+<p align="left">O site começa com uma tela de login estilizada, destacando o logotipo do Queen e uma mensagem que afirma: "A maior banda de rock de todos os tempos". A tela de login é simples, com um formulário para e-mail e senha, e inclui um link para cadastro de novos usuários. A estética é marcada por cores vibrantes como azul e laranja, que são visualmente atraentes e combinam bem com a temática do Queen.</p>
 
 ###
 
