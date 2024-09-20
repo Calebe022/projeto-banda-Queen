@@ -1,0 +1,209 @@
+/* Estilos Globais */
+html {
+    font-family: 'Georgia', serif;
+    background-image: url(imagens/queen-fundo.jpg);
+    color: #000000;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+.main-title {
+    color: #3D001C;
+    font-family: cursive;
+}
+.main-paragraph {
+    color: #3D001C;
+    font-family: cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tela de Login */
+.login-container h2 {
+    font-family: cursive;
+}
+.login-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/queen-fundo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 25px; /* Ajuste para bordas mais suaves */
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave e realista */
+    display: block;
+    width: 580px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 40px 60px;
+    border: 2px solid transparent; /* Bordas finas com gradiente */
+    background-image: linear-gradient(#ffffff, #ffffff), /* Fundo branco */
+                      linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradiente nas bordas */
+    background-origin: border-box;
+    background-clip: padding-box, border-box; /* Para o efeito de borda gradiente */
+}
+
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    background-color: #4D004D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #6A006A;
+}
+
+/* Container Principal */
+.site-content {
+    display: block; /* Mostrar o conteúdo após o login */
+    max-width: 1100px;
+    background-color: #F4F1FA;
+    margin: 50px auto;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Link para conta existente e botão de voltar */
+#has-account-link, #back-to-login {
+    color: #007bff; /* Cor azul para o link */
+    text-decoration: none;
+}
+
+#has-account-link:hover, #back-to-login:hover {
+    text-decoration: underline;
+}
+
+
+/* Cabeçalho e Navegação */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Texto em Negrito */
+.bold {
+    font-weight: bold;
+}
+
+/* Imagem em Destaque */
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #00000026;
+}
+.featured-image a {
+    color: red;
+}
+
+/* Seções com Biografia */
+.biography-container,
+.curioseties-container {
+    padding: 25px 0;
+    margin: 40px 0;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+/* Citações */
+.quotes-container {
+    background-color: #fdfdfd;
+    padding: 30px;
+    border-radius: 8px;
+    color: #00ced1;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.quotes-container p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Curiosidades */
+.curioseties-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.curioseties-container li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #8b008b;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Mais Informações */
+.moreinfo-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.moreinfo-container a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.moreinfo-container a:hover {
+    color: #007bff;
+}
+
+/* Rodapé */
+.footer-reservados {
+    text-align: center;
+    font-family: 'Cursive';
+    font-size: 16px;
+    color: #000;
+    margin-top: 50px;
+}

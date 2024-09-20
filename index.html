@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagens/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Queen</title>
+</head>
+<body>
+    <!-- Tela de Login -->
+    <div id="login-screen" class="login-screen">
+        <div class="login-container">
+            <p style="color: #5c5cd1;">A maior banda de rock de todos os tempos</p>
+            <img src="imagens/logo.png" alt="lodo do Queen">
+            <h2 style="color: darkorange;">Faça Login</h2>
+            <form id="login-form">
+                <label for="email" style="color: #000000;">E-mail:</label>
+                <input type="email" id="email" required>
+                <label for="password" style="color: #000000;">Senha:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+            <p><a href="#" id="has-account-link">Não é cadastrado? Clique aqui</a></p>
+        </div>
+    </div>
+
+    <!-- Tela de Login para Conta Existente -->
+    <div id="existing-account-screen" class="login-screen" style="display: none;">
+        <div class="login-container">
+            <img src="imagens/queen-logo.jpg" alt="Logo do Queen">
+            <h2 style="color: darkorange;">Fazer Cadastro</h2>
+            <form id="existing-account-form">
+                <label for="existing-email">E-mail:</label>
+                <input type="email" id="existing-email" required>
+                <label for="existing-password">Senha:</label>
+                <input type="password" id="existing-password" required>
+                <button type="submit">Entrar</button>
+            </form>
+            <p><a href="#" id="back-to-login">Voltar à tela de login</a></p>
+        </div>
+    </div>
+
+     <!-- Conteúdo do Site -->
+     <div id="site-content" class="site-content">
+        <!-- Cabeçalho e Navegação -->
+        <header class="header">
+            <h1 class="main-title">Queen</h1>
+            <p class="main-paragraph">Uma banda de rock formada na Inglaterra no ano de 1970</p>
+        
+        <!--Imagem de destaque-->
+        <div class="featured-image">
+            <figure>
+                <img src="imagens/queen-integrantes.jpg" alt="Banda Queen">
+                <figcaption>Integrantes da Banda</figcaption>
+            </figure>
+        </div>
+        <!--Biografia-->
+        <div class="biography-container">
+            <h2 style="color: darkorange;">Biografia Resumida</h2>
+
+            <p>A banda <span class="bold">Queen</span> foi formada em 1970, em Londres, após a dissolução da banda Smile, que contava com o guitarrista Brian May e o baterista Roger Taylor. Quando o vocalista da Smile saiu, Freddie Mercury, então amigo da banda e fã de rock progressivo, sugeriu sua entrada como vocalista e o novo nome "Queen". John Deacon se juntou ao grupo como baixista em 1971, completando a formação clássica. 
+                Nos primeiros anos, o Queen enfrentou dificuldades, buscando um som próprio em meio à explosão do glam rock e do rock progressivo. Seu álbum de estreia, Queen (1973), teve recepção moderada, mas o segundo álbum, Queen II (1974), apresentou um som mais ousado, com elementos de ópera e rock. O sucesso começou a se consolidar com Sheer Heart Attack (1974), e, em 1975, com A Night at the Opera, que incluía o hit "Bohemian Rhapsody", a banda alcançou fama internacional. Esses primeiros anos foram marcados por inovação musical e shows grandiosos, que se tornariam marca registrada do Queen.</p>
+
+            <p>Após o sucesso de A Night at the Opera (1975), especialmente com "Bohemian Rhapsody", o Queen se firmou como uma das bandas mais inovadoras e ousadas da década. O álbum foi um marco não apenas pela complexidade musical, mas também pela produção cara e pela criação de um dos primeiros videoclipes para promover a música. Isso deu ao Queen uma visibilidade imensa na cena do rock.</p>
+            <div class="featured-image">
+            <figure>
+                <img src="imagens/queen-rhapsody.jpg" alt="Queen - Bohemian Rhapsody">
+                <figcaption>Imagem do Videoclipe da música Bohemian Rhapsody <br>
+                <p>Assista ao videoclipe <a href="https://youtu.be/fJ9rUzIMcZQ?si=YKGvtbPBe0CnUcEY" target="_blank">clicando aqui</a></p></figcaption>
+            </figure>
+            </div>
+
+            <p>Nos anos seguintes, o grupo continuou a evoluir seu som. A Day at the Races (1976) e News of the World (1977) trouxeram hits como "Somebody to Love", "We Will Rock You" e "We Are the Champions", solidificando sua popularidade global e criando hinos que marcaram gerações. A banda também passou a ser reconhecida por seus shows espetaculares, com Freddie Mercury estabelecendo-se como um dos frontmen mais carismáticos e performáticos do rock. Durante os primeiros anos, o Queen foi notável por suas experimentações, misturando rock com elementos de ópera, música clássica, jazz e até funk. Essa diversidade de influências tornou seu som distinto e amplamente acessível, conquistando tanto o público quanto a crítica. Entre 1975 e o início da década de 1980, o Queen tornou-se uma das maiores bandas do mundo, realizando turnês em grandes estádios e lançando álbuns que continuavam a alcançar sucesso comercial e crítico.</p>
+            <div class="featured-image">
+            <figure>
+                <img src="imagens/queen-show.jpg" alt="Banda Queen">
+                <figcaption>Imagem do Queen fazendo show na década de 70</figcaption>
+            </figure>
+            </div>
+
+                <p>Nos anos finais da década de 1970 e início da década de 1980, o <span class="bold">Queen</span> consolidou seu status como uma das maiores bandas de rock do mundo. O álbum Jazz (1978) trouxe sucessos como "Fat Bottomed Girls" e "Bicycle Race", e em 1980, com o lançamento de The Game, a banda experimentou com o rock e o funk, criando hits como "Another One Bites the Dust" e "Crazy Little Thing Called Love". Este último álbum foi o primeiro a alcançar o topo das paradas nos Estados Unidos. Durante os anos 1980, o Queen continuou a inovar e expandir seu som. Hot Space (1982) foi um álbum que mergulhou mais fundo nas influências de disco e funk, especialmente após o sucesso de "Another One Bites the Dust". Embora polarizasse os fãs e a crítica, o Queen mostrou-se disposto a explorar diferentes gêneros. 
+                    A grande virada veio em 1985, quando o Queen fez uma performance icônica no Live Aid, considerado um dos melhores shows de rock ao vivo de todos os tempos. A apresentação, assistida por milhões de pessoas ao redor do mundo, revitalizou a carreira da banda e destacou o carisma de Freddie Mercury. Suas interações com o público e a energia da banda reafirmaram o Queen como uma potência ao vivo.</p>
+                    <div class="featured-image">
+                    <figure>
+                        <img src="imagens/queen-liveaid.jpg" alt="Queen Live Aid">
+                        <figcaption>Imagem do Queen no Live Aid 1985 <br>
+                       <p>Assista a apresentação no live aid <a href=" https://youtu.be/_9pfbgpYDsk?si=6Mtne8c_nGwwPcTR" target="_blank">clicando aqui</a></p></figcaption>
+                    </figure>
+
+                    </div>
+                    <p>O Queen vendeu mais de <span class="bold">300 milhões de álbuns</span> em todo o mundo. Esse número os coloca entre as bandas mais vendidas da história da música. O sucesso da banda continua mesmo décadas após o auge, com uma base de fãs global, vendas contínuas de discos e novos ouvintes conhecendo seu legado, especialmente após o sucesso do filme Bohemian Rhapsody em 2018.</p>
+                    <div class="featured-image">
+                    <figure>
+                        <img src="imagens/queen-albuns.jpg" alt="Albuns do Queen">
+                        <figcaption>Imagem dos álbuns do Queen</figcaption>
+                    </figure>
+                    </div>
+                    <div class="quotes-container">
+                        <blockquote>
+                            “Eu não serei uma estrela do rock. Eu serei uma lenda.”
+                        </blockquote>
+                        <p>- Freddie Mercury</p>
+                    </div>
+                    <div class="curioseties-container">
+                        <h2 style="color: darkorange;">Curiosidades da Banda</h2>
+                        <ul>
+                            <li>Nome da banda: Freddie Mercury escolheu o nome "Queen" porque achava que era curto, fácil de lembrar e cheio de glamour e pompa, o que combinava com a imagem que ele queria para o grupo.</li>
+                            <li>Freddie Mercury: Nascido como Farrokh Bulsara em Zanzibar, ele mudou seu nome para Freddie Mercury ao ingressar no Queen. Freddie era conhecido por seu incrível alcance vocal de quatro oitavas.</li>
+                            <li>Brian May: Além de ser o guitarrista do Queen, Brian May é doutor em astrofísica. Ele completou seu doutorado em 2007, mais de 30 anos após começar seus estudos.</li>
+                            <li>John Deacon: O baixista, escreveu alguns dos maiores sucessos do Queen, como "Another One Bites the Dust" e "I Want to Break Free". Ele se aposentou da música após a morte de Freddie Mercury e mantém uma vida discreta.</li>
+                            <li>Videoclipe inovador: O vídeo de "Bohemian Rhapsody" (1975) é frequentemente considerado o primeiro videoclipe da história da música moderna, influenciando a criação da MTV.</li>
+                            <li>Show no Live Aid: A apresentação da banda no Live Aid em 1985 é amplamente considerada uma das melhores performances ao vivo da história do rock. O show foi assistido por mais de 1,9 bilhão de pessoas ao redor do mundo.</li>
+                            <li>Mercury e os gatos: Freddie Mercury era apaixonado por gatos e tinha vários. Ele até dedicou o álbum Mr. Bad Guy (1985) ao seu grupo de gatos e escreveu a música "Delilah" para um deles.</li>
+                            <li>Instrumento único de Brian May: Brian May construiu sua própria guitarra, chamada "Red Special", com a ajuda de seu pai. Ele ainda a usa em shows e gravações.</li>
+                            <li>Formação única: O Queen é uma das poucas bandas de rock de grande sucesso que nunca mudou sua formação principal. Desde a entrada de John Deacon em 1971, a banda manteve a mesma formação – Freddie Mercury (vocal), Brian May (guitarra), Roger Taylor (bateria) e John Deacon (baixo) – até a morte de Freddie em 1991. Essa consistência ajudou a moldar a química única entre os integrantes e foi essencial para o som característico da banda</li>
+                            <li>Freddie Mercury e o balé: Freddie se apresentou com o Royal Ballet em 1979, mesmo sem ter qualquer experiência formal na dança. Ele ensaiou por dias e fez uma performance ao vivo, mostrando seu lado criativo e ousado.</li>
+                            <li>"We Will Rock You" e "We Are the Champions": As músicas foram escritas para serem tocadas juntas em shows. Enquanto "We Will Rock You" foi criada com uma batida simples e marcante para envolver o público, "We Are the Champions" se tornou um hino de vitória e superação</li>
+                            <li>Freddie Mercury desenhou o logotipo do Queen: O famoso logotipo da banda, conhecido como "Queen Crest", foi desenhado por Freddie, que estudou design gráfico. Ele usou os signos astrológicos dos membros: dois leões (Roger Taylor e John Deacon, ambos de Leão), um caranguejo (Brian May, de Câncer) e duas fadas (representando Virgem, signo de Freddie).</li>
+                            <li>John Deacon como inventor: Além de ser baixista, John Deacon também era engenheiro eletrônico e inventou o amplificador "Deacy Amp", usado por Brian May em várias gravações do Queen.</li>
+                            <li>Roger Taylor como multi-instrumentista: Além de ser o baterista do Queen, Roger Taylor também é um talentoso multi-instrumentista e compositor. Ele escreveu várias músicas da banda, incluindo "I'm in Love with My Car" e "Radio Ga Ga". Taylor também tocava guitarra e fazia backing vocals em muitas faixas, e até lançou álbuns solo onde assumia todos os instrumentos.</li>
+                        </ul>
+                    </div>
+
+                <p>Os anos seguintes trouxeram mais sucessos com álbuns como A Kind of Magic (1986), que foi trilha sonora do filme Highlander, e novas turnês mundiais massivas. No entanto, na virada dos anos 1990, a saúde de Freddie Mercury começou a deteriorar devido à AIDS, algo que ele manteve em segredo por anos. Mesmo assim, a banda continuou a gravar, lançando álbuns como The Miracle (1989) e Innuendo (1991), este último lançado pouco antes da morte de Mercury em novembro de 1991.
+                    <br>
+                    Freddie Mercury deixou um legado gigantesco, e o Queen, mesmo após sua morte, manteve-se como uma das bandas mais influentes e reverenciadas da história da música, com um impacto cultural que continua até hoje.</p>
+                    <div class="featured-image">
+                    <figure>
+                        <img src="imagens/queen-1991.jpg" alt="queen-1991">
+                        <figcaption>Imagem do Queen em uma seção de foto pro album innuendo em 1991</figcaption>
+                    </figure>
+                    </div>
+        </div>
+        <!--Mais informações-->
+        <div class="moreinfo-container">
+            <h2>Mais informações:</h2>
+                <p>Você pode saber mais sobre a banda <a href="https://pt.wikipedia.org/wiki/Queen" target="_blank"><br>Clicando aqui</a></p>
+        </div>
+        <br>
+        <div class="footer-reservados">
+            <footer>
+                <p>2024 - &copy; Calebe André. Todos os direitos reservados. Este site é uma homenagem ao Queen, criada por um fã.</p>
+            </footer>            
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
