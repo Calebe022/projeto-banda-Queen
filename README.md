@@ -1,35 +1,38 @@
-<h1 align="left">Introdução</h1>
+# 🎸 Queen Tribute Site
 
-###
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-<p align="left">O site desenvolvido por mim é uma homenagem especial à icônica banda britânica Queen. Como um grande fã do Queen, criei uma plataforma que não só celebra a história e a influência da banda, mas também proporciona uma experiência visual envolvente e informativa.</p>
+---
 
-###
+## 🌟 Sobre o Projeto
+Tributo à icônica banda **Queen**, criado para oferecer uma experiência **interativa** e **informativa** sobre a história e legado do grupo. Desenvolvido com foco em **design responsivo**, **experiência do usuário** e **conteúdo envolvente**.
 
-<h2 align="left">Descrição do Site</h2>
+---
 
-###
+## 🖥️ Funcionalidades
+- **Tela de login estilizada** com formulário de e-mail e senha e link de cadastro.  
+- Layout moderno e vibrante, inspirado na estética do Queen.  
+- Seções de **biografia**, **imagens destacadas**, **curiosidades** e **marcos históricos**.  
+- Navegação intuitiva e clara, garantindo **boa experiência ao usuário**.
 
-<p align="left">O site começa com uma tela de login estilizada, destacando o logotipo do Queen e uma mensagem que afirma: "A maior banda de rock de todos os tempos". A tela de login é simples, com um formulário para e-mail e senha, e inclui um link para cadastro de novos usuários. A estética é marcada por cores vibrantes como azul e laranja, que são visualmente atraentes e combinam bem com a temática do Queen.</p>
+---
 
-###
+## ✨ Diferenciais
+- **Design Visual:** paleta de cores vibrante (azul, laranja e roxo) e estética temática.  
+- **Conteúdo Informativo:** biografia completa da banda, álbuns icônicos, performances memoráveis e curiosidades.  
+- **Interatividade:** formulários dinâmicos e navegação fluida.  
+- **Curiosidades:** detalhes pouco conhecidos, como a guitarra "Red Special" de Brian May e o amor de Freddie Mercury por gatos.
 
-<p align="left">Após o login, o site exibe o conteúdo principal, que inclui uma introdução sobre a banda, imagens destacadas e uma biografia detalhada. O layout é bem estruturado, com um cabeçalho que apresenta o nome da banda e uma breve descrição. Abaixo, há uma série de imagens e textos que exploram a história do Queen, incluindo marcos importantes e curiosidades.</p>
+---
 
-###
+## 🎯 Conclusão
+O projeto combina **design atraente** com **conteúdo rico**, oferecendo um tributo envolvente ao Queen. Ideal para fãs da banda e também como demonstração de habilidades em **HTML, CSS e JavaScript**.
 
-<h2 align="left">Destaques</h2>
+---
 
-###
-
-<p align="left">Design Visual: O uso de cores e imagens é muito eficaz em capturar o espírito do Queen. O fundo de cada página é uma imagem temática que evoca a estética da banda, enquanto o uso de cores como roxo e laranja para os textos adiciona um toque vibrante.<br>Conteúdo: A biografia da banda é bem escrita e informativa, cobrindo desde a formação do grupo até seus sucessos mais notáveis. O site inclui várias seções com informações sobre os membros da banda, álbuns icônicos e performances memoráveis, como o Live Aid de 1985.<br><br>Funcionalidade: O site possui uma navegação simples e clara, com links para mais informações e vídeos relacionados. A funcionalidade de login e a estrutura do conteúdo permitem uma experiência de usuário fluida e intuitiva.<br><br>Curiosidades: A seção de curiosidades é um ótimo toque, oferecendo detalhes fascinantes sobre a banda que muitos fãs podem não conhecer, como a construção da guitarra "Red Special" por Brian May e o amor de Freddie Mercury por gatos.</p>
-
-###
-
-<h2 align="left">Conclusão</h2>
-
-###
-
-<p align="left">O site desenvolvido por mim é um tributo bem-executado ao Queen, refletindo minha paixão pela banda em cada detalhe. A combinação de um design atraente com conteúdo informativo oferece uma experiência rica para qualquer fã do Queen. A presença de imagens icônicas e curiosidades sobre a banda demonstra o profundo respeito e admiração minha pelo grupo, tornando o site não apenas uma homenagem, mas também uma fonte valiosa de informações para os admiradores do Queen.</p>
-
-###
+## 🛠️ Tecnologias Utilizadas
+- **HTML5** – estrutura semântica do site.  
+- **CSS3** – estilização moderna e responsiva.  
+- **JavaScript** – interatividade e validação de formulários.
